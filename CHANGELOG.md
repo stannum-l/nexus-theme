@@ -4,6 +4,12 @@ All notable changes to the "nexus-theme" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.6]
+
+- Split declaration keywords into distinct roles for readability and consistency: scope, type, function, class, interface, enum, module, namespace, import, and export
+- Align JSON, TOML, YAML, XML, SQL, Jinja, CSS, and Makefile key/value/import highlighting with the same palette
+- Fix `support.type.builtin` to use the type color
+
 ## [0.1.5]
 
 - Fixes import packages color

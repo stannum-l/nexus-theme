@@ -390,14 +390,35 @@
 			}
 		},
 		{
+			"name": "Scope Modifiers",
 			"scope": [
+				"storage.modifier",
 				"storage.modifier.java",
 				"storage.modifier.php",
 				"storage.modifier.other.kotlin",
 				"storage.modifier.static.groovy",
+				"storage.modifier.async.js",
+				"storage.modifier.async.ts",
+				"storage.modifier.async.tsx",
+				"storage.modifier.async.js.jsx",
+				"storage.modifier.js",
+				"storage.modifier.ts",
+				"storage.modifier.tsx",
+				"storage.modifier.js.jsx",
+				"storage.modifier.rust",
+				"storage.modifier.mut.rust",
+				"storage.modifier.declaration.python",
+				"storage.modifier.visibility.php",
+				"storage.modifier.visibility.set.php",
+				"storage.modifier.readonly.php",
+				"storage.modifier.static.php",
+				"storage.type.modifier.access",
+				"storage.type.modifier.access.control",
+				"storage.type.modifier.access.control.cpp",
+				"storage.type.modifier.access.control.c"
 			],
 			"settings": {
-				"foreground": "#10b1fe"
+				"foreground": "#50acae"
 			}
 		},
 		{
@@ -412,7 +433,10 @@
 			"scope": [
 				"entity.name.namespace",
 				"entity.name.module",
-				"entity.name.type.module"
+				"entity.name.type.module",
+				"entity.name.type.package.go",
+				"entity.name.type.namespace.cs",
+				"entity.name.type.namespace.php"
 			],
 			"settings": {
 				"foreground": "#FF839B"
@@ -550,16 +574,20 @@
 			}
 		},
 		{
-			"name": "Global Use",
+			"name": "Import Keywords",
 			"scope": [
-				"keyword.other.rust",
+				"meta.use.rust keyword.other.rust",
+				"meta.import.rust storage.type.rust",
+				"keyword.control.import",
 				"keyword.control.import.python",
 				"keyword.other.import.java",
 				"keyword.other.import.groovy",
-				"keyword.other.import.php",
+				"keyword.other.use.php",
+				"keyword.control.import.include.php",
 				"keyword.control.directive.include.cpp",
 				"keyword.control.directive.include.c",
-				"keyword.import.go",
+				"keyword.control.directive.import.cpp",
+				"keyword.control.import.go",
 				"keyword.control.import.haskell",
 				"keyword.soft.kotlin",
 				"keyword.other.special-method.ruby",
@@ -568,7 +596,15 @@
 				"keyword.control.import.ts",
 				"keyword.control.import.tsx",
 				"keyword.control.import.js",
-				"keyword.control.import.jsx"
+				"keyword.control.import.js.jsx",
+				"keyword.control.from.ts",
+				"keyword.control.from.tsx",
+				"keyword.control.from.js",
+				"keyword.control.from.js.jsx",
+				"keyword.other.directive.using.cs",
+				"keyword.other.using.directive.cpp",
+				"keyword.control.at-rule.import.css",
+				"keyword.control.include.makefile"
 			],
 			"settings": {
 				"foreground": "#74ff98"
@@ -578,12 +614,32 @@
 			"name": "Primitive Type",
 			"scope": [
 				"support.type.primitive",
-				"support.type.primitive.go",
+				"support.type.primitive.js",
+				"support.type.primitive.ts",
+				"support.type.primitive.tsx",
+				"support.type.primitive.js.jsx",
 				"storage.type.primitive.java",
-				"support.type.primitive.c",
-				"support.type.primitive.c++",
-				"support.type.primitive.csharp",
-				"support.type.primitive.rust",
+				"storage.type.primitive.array.java",
+				"support.type.builtin",
+				"storage.type.built-in",
+				"storage.type.built-in.primitive",
+				"storage.type.built-in.cpp",
+				"storage.type.built-in.primitive.cpp",
+				"storage.type.built-in.c",
+				"storage.type.built-in.primitive.c",
+				"storage.type.numeric.go",
+				"storage.type.boolean.go",
+				"storage.type.byte.go",
+				"storage.type.rune.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go",
+				"storage.type.error.go",
+				"storage.type.sql",
+				"keyword.type",
+				"keyword.other.type.php",
+				"keyword.other.type.never.php",
+				"entity.name.type.primitive.rust",
+				"entity.name.type.numeric.rust"
 			],
 			"settings": {
 				"foreground": "#00cc47"
@@ -667,6 +723,157 @@
 			}
 		},
 		{
+			"name": "Function Keywords",
+			"scope": [
+				"storage.type.function",
+				"storage.type.function.js",
+				"storage.type.function.ts",
+				"storage.type.function.tsx",
+				"storage.type.function.js.jsx",
+				"storage.type.function.python",
+				"storage.type.function.async.python",
+				"storage.type.function.lambda.python",
+				"storage.type.function.php",
+				"storage.type.function.arrow.js",
+				"storage.type.function.arrow.ts",
+				"storage.type.function.arrow.tsx",
+				"storage.type.function.arrow.js.jsx",
+				"storage.type.function.arrow.java",
+				"keyword.declaration.function",
+				"keyword.function.go",
+				"keyword.other.fn.rust",
+				"keyword.control.def.ruby",
+				"keyword.other.function.use.php"
+			],
+			"settings": {
+				"foreground": "#aaa0fa"
+			}
+		},
+		{
+			"name": "Class Keywords",
+			"scope": [
+				"storage.type.class",
+				"storage.type.class.js",
+				"storage.type.class.ts",
+				"storage.type.class.tsx",
+				"storage.type.class.js.jsx",
+				"storage.type.class.python",
+				"storage.type.class.php",
+				"storage.type.class.cs",
+				"storage.type.struct",
+				"storage.type.struct.cs",
+				"storage.type.struct.declare.cpp",
+				"storage.type.class.declare.cpp",
+				"storage.type.record.cs",
+				"keyword.declaration.class",
+				"keyword.declaration.struct",
+				"keyword.declaration.struct.rust",
+				"keyword.control.class.ruby",
+				"keyword.other.class.php"
+			],
+			"settings": {
+				"foreground": "#efb080"
+			}
+		},
+		{
+			"name": "Interface Keywords",
+			"scope": [
+				"storage.type.interface",
+				"storage.type.interface.js",
+				"storage.type.interface.ts",
+				"storage.type.interface.tsx",
+				"storage.type.interface.js.jsx",
+				"storage.type.interface.cs",
+				"storage.type.interface.php",
+				"storage.type.type",
+				"storage.type.type.js",
+				"storage.type.type.ts",
+				"storage.type.type.tsx",
+				"storage.type.type.js.jsx",
+				"storage.type.trait.php",
+				"keyword.declaration.interface",
+				"keyword.declaration.trait",
+				"keyword.declaration.trait.rust",
+				"keyword.declaration.type",
+				"keyword.declaration.type.rust",
+				"entity.name.type.interface"
+			],
+			"settings": {
+				"foreground": "#5fd0c2"
+			}
+		},
+		{
+			"name": "Enum Keywords",
+			"scope": [
+				"storage.type.enum",
+				"storage.type.enum.js",
+				"storage.type.enum.ts",
+				"storage.type.enum.tsx",
+				"storage.type.enum.js.jsx",
+				"storage.type.enum.cs",
+				"storage.type.enum.php",
+				"storage.type.enum.cpp",
+				"storage.type.enum.declare.cpp",
+				"storage.type.enum.case.php",
+				"keyword.declaration.enum",
+				"keyword.declaration.enum.rust"
+			],
+			"settings": {
+				"foreground": "#9f7efe"
+			}
+		},
+		{
+			"name": "Module Keywords",
+			"scope": [
+				"storage.type.module",
+				"keyword.package.go",
+				"keyword.control.module.ruby",
+				"keyword.other.crate.rust",
+				"entity.name.type.module.java",
+				"storage.modifier.import.java",
+				"storage.modifier.package.java"
+			],
+			"settings": {
+				"foreground": "#FF839B"
+			}
+		},
+		{
+			"name": "Namespace Keywords",
+			"scope": [
+				"storage.type.namespace",
+				"storage.type.namespace.js",
+				"storage.type.namespace.ts",
+				"storage.type.namespace.tsx",
+				"storage.type.namespace.js.jsx",
+				"storage.type.namespace.cs",
+				"storage.type.namespace.definition.cpp",
+				"storage.type.namespace.directive.cpp",
+				"storage.type.namespace.alias.cpp",
+				"keyword.other.package.java",
+				"keyword.other.namespace.php",
+				"keyword.other.namespace.definition.cpp",
+				"keyword.other.namespace.directive.cpp",
+				"keyword.other.namespace.alias.cpp",
+				"keyword.control.at-rule.namespace.css"
+			],
+			"settings": {
+				"foreground": "#ff6480"
+			}
+		},
+		{
+			"name": "Export Keywords",
+			"scope": [
+				"keyword.control.export",
+				"keyword.control.export.js",
+				"keyword.control.export.ts",
+				"keyword.control.export.tsx",
+				"keyword.control.export.js.jsx"
+			],
+			"settings": {
+				"foreground": "#b4e85a"
+			}
+		},
+		{
 			"name": "Annotations and Decorators",
 			"scope": [
 				"storage.type.annotation",
@@ -746,7 +953,10 @@
 				"constant.language.symbol",
 				"support.constant",
 				"support.variable.magic.python",
-				"variable.other.enummember"
+				"variable.other.enummember",
+				"entity.name.variable.enum-member.cs",
+				"constant.other.enum.java",
+				"constant.enum.php"
 			],
 			"settings": {
 				"foreground": "#9f7efe"
@@ -997,6 +1207,14 @@
 				"support.variable.property",
 				"variable.object.property",
 				"support.type.property-name",
+				"support.type.property-name.json",
+				"support.type.property-name.json.comments",
+				"support.type.property-name.json.lines",
+				"support.type.property-name.toml",
+				"support.type.property-name.table.toml",
+				"support.type.property-name.array.toml",
+				"support.type.property-name.css",
+				"support.type.vendored.property-name.css",
 				"meta.property-name",
 				"entity.name.tag.yaml",
 				"constant.other.key",
@@ -1010,6 +1228,92 @@
 			],
 			"settings": {
 				"foreground": "#87ceeb"
+			}
+		},
+		{
+			"name": "Data Language Constants",
+			"scope": [
+				"constant.language.json",
+				"constant.language.json.comments",
+				"constant.language.json.lines",
+				"constant.language.boolean.yaml",
+				"constant.language.null.yaml",
+				"constant.language.boolean.toml",
+				"constant.language.yaml.yaml"
+			],
+			"settings": {
+				"foreground": "#ff6347"
+			}
+		},
+		{
+			"name": "Jinja Template",
+			"scope": [
+				"entity.other.jinja.delimiter.tag",
+				"entity.other.jinja.delimiter.comment",
+				"punctuation.other.jinja"
+			],
+			"settings": {
+				"foreground": "#7a82da"
+			}
+		},
+		{
+			"name": "Jinja Control",
+			"scope": [
+				"keyword.control.jinja"
+			],
+			"settings": {
+				"foreground": "#10b1fe"
+			}
+		},
+		{
+			"name": "Makefile Targets",
+			"scope": [
+				"entity.name.function.target.makefile",
+				"variable.other.makefile",
+				"variable.language.makefile"
+			],
+			"settings": {
+				"foreground": "#87ceeb"
+			}
+		},
+		{
+			"name": "SQL Types",
+			"scope": [
+				"storage.type.sql"
+			],
+			"settings": {
+				"foreground": "#00cc47"
+			}
+		},
+		{
+			"name": "SQL Modifiers",
+			"scope": [
+				"storage.modifier.sql"
+			],
+			"settings": {
+				"foreground": "#50acae"
+			}
+		},
+		{
+			"name": "XML Tags",
+			"scope": [
+				"entity.name.tag.xml",
+				"entity.name.tag.localname.xml",
+				"entity.name.tag.namespace.xml"
+			],
+			"settings": {
+				"foreground": "#3691ff"
+			}
+		},
+		{
+			"name": "XML Attributes",
+			"scope": [
+				"entity.other.attribute-name.xml",
+				"entity.other.attribute-name.localname.xml",
+				"entity.other.attribute-name.namespace.xml"
+			],
+			"settings": {
+				"foreground": "#ff936a"
 			}
 		},
 		{
@@ -1047,7 +1351,7 @@
 				"support.type.builtin"
 			],
 			"settings": {
-				"foreground": "#10b1fe"
+				"foreground": "#00cc47"
 			}
 		},
 		{
