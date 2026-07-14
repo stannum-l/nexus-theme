@@ -386,7 +386,7 @@
 				"variable.parameter.function.language.special.cls.python"
 			],
 			"settings": {
-				"foreground": "#aa51fd"
+				"foreground": "#10b1fe"
 			}
 		},
 		{
@@ -397,7 +397,7 @@
 				"storage.modifier.static.groovy",
 			],
 			"settings": {
-				"foreground": "#ab40ff"
+				"foreground": "#10b1fe"
 			}
 		},
 		{
@@ -421,8 +421,7 @@
 		{
 			"name": "Label",
 			"scope": [
-				"variable.other.label",
-				"entity.name.function.decorator"
+				"variable.other.label"
 			],
 			"settings": {
 				"foreground": "#50acae"
@@ -439,7 +438,7 @@
 				"comment.block"
 			],
 			"settings": {
-				"foreground": "#636d83"
+				"foreground": "#737d94"
 			}
 		},
 		{
@@ -525,7 +524,7 @@
 		{
 			"scope": "support.type.python",
 			"settings": {
-				"foreground": "#228b22"
+				"foreground": "#00cc47"
 			}
 		},
 		{
@@ -572,7 +571,7 @@
 				"keyword.control.import.jsx"
 			],
 			"settings": {
-				"foreground": "#83D6C5"
+				"foreground": "#10b1fe"
 			}
 		},
 		{
@@ -668,13 +667,25 @@
 			}
 		},
 		{
-			"name": "Storage Annotation",
+			"name": "Annotations and Decorators",
 			"scope": [
+				"storage.type.annotation",
 				"storage.type.annotation.java",
-				"entity.name.function.decorator.python",
 				"storage.type.annotation.groovy",
+				"entity.name.function.decorator",
+				"entity.name.function.decorator.python",
+				"entity.name.type.annotation",
+				"entity.name.type.annotation.java",
 				"entity.name.type.annotation.kotlin",
-				"storage.type.object.array.java"
+				"punctuation.definition.annotation",
+				"punctuation.definition.decorator",
+				"punctuation.decorator",
+				"meta.decorator variable.other.readwrite",
+				"meta.decorator variable.function",
+				"meta.decorator entity.name.function",
+				"meta.decorator support.function",
+				"meta.attribute.rust punctuation.definition.attribute",
+				"meta.attribute.rust entity.name"
 			],
 			"settings": {
 				"foreground": "#f0e68c"
@@ -825,7 +836,7 @@
 			],
 			"settings": {
 				"fontStyle": "strikethrough",
-				"foreground": "#636d83"
+				"foreground": "#737d94"
 			}
 		},
 		{
@@ -836,7 +847,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic strikethrough",
-				"foreground": "#636d83"
+				"foreground": "#737d94"
 			}
 		},
 		{
@@ -847,7 +858,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold strikethrough",
-				"foreground": "#636d83"
+				"foreground": "#737d94"
 			}
 		},
 		{
@@ -1088,7 +1099,7 @@
 				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#65737E"
+				"foreground": "#737d94"
 			}
 		},
 		{
@@ -1109,41 +1120,27 @@
 			}
 		},
 		{
+			"name": "Assignment Operators",
 			"scope": [
+				"keyword.operator.assignment",
 				"keyword.operator.assignment.go",
 				"keyword.operator.assignment.c",
 				"keyword.operator.assignment.cpp",
+				"keyword.operator.assignment.ruby",
+				"keyword.operator.assignment.java",
+				"keyword.operator.assignment.groovy",
+				"keyword.operator.assignment.rust",
+				"keyword.operator.assignment.zig",
+				"keyword.operator.assignment.python",
+				"keyword.operator.assignment.js",
+				"keyword.operator.assignment.jsx",
+				"keyword.operator.assignment.ts",
+				"keyword.operator.assignment.tsx",
+				"keyword.operator.assignment.shell"
 			],
 			"settings": {
-				"foreground": "#b432ac"
+				"foreground": "#d957d2"
 			}
 		},
-		{
-			"name": "Operators",
-			"scope": [
-				"keyword.operator.new",
-				"keyword.operator.expression.instanceof",
-				"keyword.operator.new",
-				"keyword.operator.ternary",
-				"keyword.operator.optional",
-				"keyword.operator.expression.keyof",
-				"keyword.operator.logical",
-				"keyword.operator.bitwise",
-				"keyword.operator.channel",
-				"keyword.operator.comparison",
-				"keyword.operator.comparison.c",
-				"keyword.operator.c",
-				"keyword.operator.increment.c",
-				"keyword.operator.decrement.c",
-				"keyword.operator.bitwise.shift.c",
-				"keyword.operator.comparison.cpp",
-				"keyword.operator.cpp",
-				"keyword.operator.increment.cpp",
-			],
-			"settings": {
-				"foreground": "#b432ac"
-			}
-		},
-
 	]
 }

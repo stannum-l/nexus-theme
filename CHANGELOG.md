@@ -4,6 +4,10 @@ All notable changes to the "nexus-theme" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.4]
+
+- Going through all the color to reduce conflict and increase contrast
+
 ## [0.1.3]
 
 - Restored a number of language specific colorings
