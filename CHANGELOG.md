@@ -4,6 +4,11 @@ All notable changes to the "nexus-theme" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.5]
+
+- Fixes import packages color
+- Add CSV rainbow colors
+
 ## [0.1.4]
 
 - Going through all the color to reduce conflict and increase contrast

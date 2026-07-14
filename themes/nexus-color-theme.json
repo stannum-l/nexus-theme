@@ -571,7 +571,7 @@
 				"keyword.control.import.jsx"
 			],
 			"settings": {
-				"foreground": "#10b1fe"
+				"foreground": "#74ff98"
 			}
 		},
 		{
@@ -1142,5 +1142,27 @@
 				"foreground": "#d957d2"
 			}
 		},
+		{
+			"name": "CSV Rainbow 4",
+			"scope": "comment.rainbow4",
+			"settings": {
+				"foreground": "#ce9887"
+			}
+		},
+		{
+			"name": "CSV Rainbow 9",
+			"scope": "markup.bold.rainbow9",
+			"settings": {
+				"foreground": "#9f7efe",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "CSV Rainbow 10",
+			"scope": "invalid.rainbow10",
+			"settings": {
+				"foreground": "#ff936a"
+			}
+		}
 	]
 }
