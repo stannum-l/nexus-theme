@@ -377,7 +377,6 @@
 		"titleBar.activeForeground": "#abb2bf",
 		"titleBar.inactiveBackground": "#40475399",
 		"titleBar.inactiveForeground": "#abb2bf99",
-		"walkThrough.embeddedEditorBackground": "#22252a",
 		"widget.shadow": "#22252a"
 	},
 	"tokenColors": [
@@ -526,7 +525,7 @@
 		{
 			"scope": "support.type.python",
 			"settings": {
-				"foreground": "#7fff00"
+				"foreground": "#228b22"
 			}
 		},
 		{
@@ -674,7 +673,8 @@
 				"storage.type.annotation.java",
 				"entity.name.function.decorator.python",
 				"storage.type.annotation.groovy",
-				"entity.name.type.annotation.kotlin"
+				"entity.name.type.annotation.kotlin",
+				"storage.type.object.array.java"
 			],
 			"settings": {
 				"foreground": "#f0e68c"
@@ -948,13 +948,6 @@
 			}
 		},
 		{
-			"name": "New Operator",
-			"scope": "keyword.operator.new",
-			"settings": {
-				"foreground": "#10b1fe"
-			}
-		},
-		{
 			"name": "Css ID",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
@@ -1106,6 +1099,51 @@
 			"settings": {
 				"foreground": "#7fff00",
 			}
-		}
+		},
+		{
+			"scope": [
+				"variable.other.read.github-actions-expression",
+			],
+			"settings": {
+				"foreground": "#ffd700",
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.assignment.go",
+				"keyword.operator.assignment.c",
+				"keyword.operator.assignment.cpp",
+			],
+			"settings": {
+				"foreground": "#b432ac"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator.new",
+				"keyword.operator.expression.instanceof",
+				"keyword.operator.new",
+				"keyword.operator.ternary",
+				"keyword.operator.optional",
+				"keyword.operator.expression.keyof",
+				"keyword.operator.logical",
+				"keyword.operator.bitwise",
+				"keyword.operator.channel",
+				"keyword.operator.comparison",
+				"keyword.operator.comparison.c",
+				"keyword.operator.c",
+				"keyword.operator.increment.c",
+				"keyword.operator.decrement.c",
+				"keyword.operator.bitwise.shift.c",
+				"keyword.operator.comparison.cpp",
+				"keyword.operator.cpp",
+				"keyword.operator.increment.cpp",
+			],
+			"settings": {
+				"foreground": "#b432ac"
+			}
+		},
+
 	]
 }

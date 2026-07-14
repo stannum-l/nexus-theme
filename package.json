@@ -3,7 +3,7 @@
   "displayName": "Nexus Theme",
   "description": "This is a dark theme for Visual Studio Code that provides a sleek and modern look for your coding environment.",
   "author": "Tin Lam <tin@irrational.io>",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "Apache-2.0",
   "publisher": "stannum",
   "engines": {
