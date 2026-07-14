@@ -1,0 +1,38 @@
+{
+  "name": "nexus-theme",
+  "displayName": "Nexus Theme",
+  "description": "This is a dark theme for Visual Studio Code that provides a sleek and modern look for your coding environment.",
+  "author": "Tin Lam <tin@irrational.io>",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "publisher": "stannum",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stannum-l/nexus-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/stannum-l/nexus-theme/issues"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/stannum-l"
+  },
+  "icon": "assets/logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nexus Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nexus-color-theme.json"
+      }
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
