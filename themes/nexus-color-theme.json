@@ -1469,5 +1469,109 @@
 				"foreground": "#10b1fe"
 			}
 		},
+		{
+			"scope": [
+				"wow.deathknight",
+			],
+			"settings": {
+				"foreground": "#c41e3a"
+			}
+		},
+		{
+			"scope": [
+				"wow.druid",
+			],
+			"settings": {
+				"foreground": "#ff7c0a"
+			}
+		},
+		{
+			"scope": [
+				"wow.hunter",
+			],
+			"settings": {
+				"foreground": "#aad372"
+			}
+		},
+		{
+			"scope": [
+				"wow.mage",
+			],
+			"settings": {
+				"foreground": "#3fc7eb"
+			}
+		},
+		{
+			"scope": [
+				"wow.evoker",
+			],
+			"settings": {
+				"foreground": "#33937f"
+			}
+		},
+		{
+			"scope": [
+				"wow.demonhunter",
+			],
+			"settings": {
+				"foreground": "#a330c9"
+			}
+		},
+		{
+			"scope": [
+				"wow.monk",
+			],
+			"settings": {
+				"foreground": "#00ff98"
+			}
+		},
+		{
+			"scope": [
+				"wow.paladin",
+			],
+			"settings": {
+				"foreground": "#f48cba"
+			}
+		},
+		{
+			"scope": [
+				"wow.priest",
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"scope": [
+				"wow.rogue",
+			],
+			"settings": {
+				"foreground": "#fff468"
+			}
+		},
+		{
+			"scope": [
+				"wow.shaman",
+			],
+			"settings": {
+				"foreground": "#0070dd"
+			}
+		},
+		{
+			"scope": [
+				"wow.warlock",
+			],
+			"settings": {
+				"foreground": "#8788ee"
+			}
+		},
+		{
+			"scope": [
+				"wow.warrior",
+			],
+			"settings": {
+				"foreground": "#c69b6d"
+			}
+		},
 	]
 }
