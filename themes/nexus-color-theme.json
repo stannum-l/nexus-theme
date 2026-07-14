@@ -975,7 +975,10 @@
 			}
 		},
 		{
-			"scope": "variable.other.assignment.dockerfile",
+			"scope": [
+				"variable.other.assignment.dockerfile",
+				"variable.other.assignment.shell"
+			],
 			"settings": {
 				"foreground": "#87ceeb"
 			}
@@ -1093,6 +1096,15 @@
 			],
 			"settings": {
 				"foreground": "#65737E"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.normal.shell",
+				"punctuation.definition.variable.shell"
+			],
+			"settings": {
+				"foreground": "#7fff00",
 			}
 		}
 	]
