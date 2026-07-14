@@ -4,6 +4,10 @@ All notable changes to the "nexus-theme" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.7]
+
+- Update CPP primitive type color to match other languages
+
 ## [0.1.6]
 
 - Split declaration keywords into distinct roles for readability and consistency: scope, type, function, class, interface, enum, module, namespace, import, and export

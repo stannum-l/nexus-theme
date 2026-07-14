@@ -674,6 +674,7 @@
 		{
 			"scope": [
 				"entity.name.type",
+				"entity.name.type.cpp",
 				"variable.other.constant.elixir",
 				"storage.type.haskell",
 				"support.type.graphql",
@@ -711,15 +712,6 @@
 			],
 			"settings": {
 				"foreground": "#ff6347"
-			}
-		},
-		{
-			"name": "Storage",
-			"scope": [
-				"storage",
-			],
-			"settings": {
-				"foreground": "#10b1fe"
 			}
 		},
 		{
@@ -1467,6 +1459,15 @@
 			"settings": {
 				"foreground": "#ff936a"
 			}
-		}
+		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage",
+			],
+			"settings": {
+				"foreground": "#10b1fe"
+			}
+		},
 	]
 }
