@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.x]
 
-- Fix golang variable
+- Fix golang colors
 - Update CPP primitive type color to match other languages
 - Split declaration keywords into distinct roles for readability and consistency: scope, type, function, class, interface, enum, module, namespace, import, and export
 - Align JSON, TOML, YAML, XML, SQL, Jinja, CSS, and Makefile key/value/import highlighting with the same palette
