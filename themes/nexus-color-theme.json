@@ -1496,6 +1496,7 @@
 		{
 			"scope": [
 				"wow.mage",
+				"variable.other.go",
 			],
 			"settings": {
 				"foreground": "#3fc7eb"
