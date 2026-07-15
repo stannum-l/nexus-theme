@@ -1471,6 +1471,14 @@
 		},
 		{
 			"scope": [
+				"variable.other.go",
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
 				"wow.deathknight",
 			],
 			"settings": {
@@ -1496,7 +1504,6 @@
 		{
 			"scope": [
 				"wow.mage",
-				"variable.other.go",
 			],
 			"settings": {
 				"foreground": "#3fc7eb"
