@@ -379,6 +379,7 @@
     "widget.shadow": "#22252a"
   },
   "name": "Nexus",
+  "semanticHighlighting": true,
   "semanticTokenColors": {
     "class:python": "#4B75EA",
     "class.builtin:python": "#00ff98",
@@ -1348,21 +1349,21 @@
       }
     },
     {
-      "name": "BASH: Command Substitution",
+      "name": "BASH:Command Substitution",
       "scope": "string.interpolated.dollar.shell",
       "settings": {
         "foreground": "#ff6480"
       }
     },
     {
-      "name": "BASH: Math Operation",
+      "name": "BASH:Math Operation",
       "scope": "string.other.math.shell",
       "settings": {
         "foreground": "#3691ff"
       }
     },
     {
-      "name": "BASH: Substitution",
+      "name": "BASH:Substitution",
       "scope": [
         "punctuation.definition.string.begin.shell",
         "punctuation.definition.string.end.shell"
