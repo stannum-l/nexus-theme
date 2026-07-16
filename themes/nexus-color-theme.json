@@ -507,7 +507,8 @@
         "comment.block"
       ],
       "settings": {
-        "foreground": "#737d94"
+        "foreground": "#737d94",
+        "fontStyle": "italic"
       }
     },
     {
