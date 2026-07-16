@@ -387,8 +387,8 @@
     "class.declaration:python": "#EFB080",
     "class.defaultLibrary:python": "#00ff98",
     "enumMember": "#D6D6DD",
-    "module:python": "#EFB080",
-    "namespace": "#fd5108",
+    "module": "#f48cba",
+    "namespace": "#f48cba",
     "operator:go": "#FFFF00",
     "property.declaration:javascript": "#FAD075",
     "type:go": "#4B75EA",
@@ -485,7 +485,7 @@
         "entity.name.type.namespace.php"
       ],
       "settings": {
-        "foreground": "#fd5108"
+        "foreground": "#f48cba"
       }
     },
     {
