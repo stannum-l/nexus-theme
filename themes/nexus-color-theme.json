@@ -489,6 +489,16 @@
       }
     },
     {
+      "name": "Imports",
+      "scope": [
+        "entity.name.import.go",
+        "storage.modifier.import.groovy"
+      ],
+      "settings": {
+        "foreground": "#f48cba"
+      }
+    },
+    {
       "name": "Label",
       "scope": [
         "variable.other.label"
@@ -654,7 +664,7 @@
         "keyword.control.include.makefile"
       ],
       "settings": {
-        "foreground": "#74ff98"
+        "foreground": "#10B1FE"
       }
     },
     {
@@ -773,11 +783,6 @@
         "storage.type.function.async.python",
         "storage.type.function.lambda.python",
         "storage.type.function.php",
-        "storage.type.function.arrow.js",
-        "storage.type.function.arrow.ts",
-        "storage.type.function.arrow.tsx",
-        "storage.type.function.arrow.js.jsx",
-        "storage.type.function.arrow.java",
         "keyword.declaration.function",
         "keyword.function.go",
         "keyword.other.fn.rust",
@@ -1589,6 +1594,22 @@
       ],
       "settings": {
         "foreground": "#fd5108"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.operator.member.cpp",
+        "keyword.operator.arrow.go",
+        "storage.type.function.arrow.js",
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.tsx",
+        "storage.type.function.arrow.js.jsx",
+        "storage.type.function.arrow.java",
+        "storage.type.function.arrow.dart",
+        "punctuation.separator.annotation.result.python"
+      ],
+      "settings": {
+        "foreground": "#d2b48c"
       }
     }
   ]
