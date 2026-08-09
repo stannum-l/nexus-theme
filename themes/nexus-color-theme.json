@@ -1408,7 +1408,7 @@
       }
     },
     {
-      "scope": [
+      "scope": [.
         "variable.other.normal.shell",
         "punctuation.definition.variable.shell"
       ],
@@ -1421,7 +1421,7 @@
         "variable.other.read.github-actions-expression"
       ],
       "settings": {
-        "foreground": "#c408ff"
+        "foreground": "#e0b0ff"
       }
     },
     {
