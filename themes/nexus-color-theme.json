@@ -1421,7 +1421,7 @@
         "variable.other.read.github-actions-expression"
       ],
       "settings": {
-        "foreground": "#fd5108"
+        "foreground": "#c408ff"
       }
     },
     {
